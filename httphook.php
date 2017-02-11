@@ -148,7 +148,7 @@
           $parameters = array(
               "survey" => $sSurveyId,
               "token" => (isset($sToken)) ? $sToken : null,
-              "responseId" => (isset($responseId)) ? $responseId : null     
+              "responseId" => (isset($responseId)) ? $responseId : null,    
               "additionalFields" => ($additionalFields) ? json_encode($additionalAnswers) : null
           );
           
